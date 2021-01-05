@@ -60,3 +60,22 @@ void test_divide(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(3, divide(2, 2));
 }
+
+/*
+#include "calc.h"
+#include "unity.h"
+#include "unity_internals.h"
+void setUp()
+{}
+void tearDown()
+{}
+void Dec()
+{
+    TEST_ASSERT_EQUAL(26,Dec(1a));
+}
+int main()
+{
+    UNITY_BEGIN();
+    RUN_TEST(Dec);
+    return UNITY_END();
+}*/
